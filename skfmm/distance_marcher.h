@@ -18,6 +18,7 @@ protected:
                                           const double &b, double &c);
 
   virtual void             initalizeFrozen();
+  virtual void             initalizeFrozen2();
   virtual double           updatePointOrderOne(int i);
   virtual double           updatePointOrderTwo(int i);
 };
